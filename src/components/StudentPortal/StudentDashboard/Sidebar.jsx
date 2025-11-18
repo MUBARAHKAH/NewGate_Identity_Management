@@ -19,7 +19,7 @@ import React, {
 
 import { NavLink } from "react-router-dom";
 import { useSession } from "../../../context/session";
-import logo from "../../assets/unilorin_logo2.png";
+import logo from "../../assets/NewGate_logo_III.png";
 
 const API_BASE =
   process.env.REACT_APP_API_URL || "https://studentbackendportal.onrender.com";

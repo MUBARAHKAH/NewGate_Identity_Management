@@ -2,7 +2,7 @@ import { useState, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useSession } from "../../../context/session";
-import logo from "../../assets/unilorin_logo2.png";
+import logo from "../../assets/NewGate_logo_III.png";
 import loader from "../../assets/loader.svg";
 
 /**
@@ -98,7 +98,7 @@ export default function Login() {
           <img
             src={logo}
             alt="University Logo"
-            className="w-20 mb-3 drop-shadow-sm"
+            className="w-25 mb-3 drop-shadow-sm"
             loading="lazy"
           />
           <h1 className="text-2xl font-semibold text-gray-800">
