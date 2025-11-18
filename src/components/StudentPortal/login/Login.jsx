@@ -98,10 +98,10 @@ export default function Login() {
           <img
             src={logo}
             alt="University Logo"
-            className="w-25 mb-3 drop-shadow-sm"
+            className="w-20 mb-3 drop-shadow-sm"
             loading="lazy"
           />
-          <h1 className="text-2xl font-semibold text-gray-800">
+          <h1 className="text-xl md:text-2xl font-semibold text-gray-800">
             Sign in to your account
           </h1>
           <p className="text-gray-500 text-sm mt-1">Enter your details below</p>
@@ -133,7 +133,7 @@ export default function Login() {
               value={form.matricNumber}
               onChange={handleChange}
               className="w-full rounded-lg border border-gray-300 px-4 py-2 text-gray-800 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition"
-              placeholder="e.g. 21/01/0012"
+              placeholder="e.g. 24A/UE/BCSX/10028"
             />
           </div>
 
